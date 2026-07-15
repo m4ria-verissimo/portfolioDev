@@ -503,4 +503,29 @@ header{
      border-right: none;
      gap:10px;
 }
+.texto{
+    margin-top: 3px;
+    width: 60vw;
+    height: 20vh;
+    margin:auto;
+
+    
+}
+.texto input{
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 3px;
+    margin-right: 1px;
+    background-color:#202230;
+    color:#fff;
+    border-radius: 6px;
+   
+}
+.texto textarea{
+    width:40vw;
+    height: 10vh;
+    background-color:#202230;
+    color:#fff;
+    border-radius: 7px;
+}
 }
