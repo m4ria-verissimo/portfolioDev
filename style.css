@@ -322,11 +322,13 @@ p{
 #contato{
     color:#fff;
     margin-left: 17px;
+    margin-top: 14px;
 }
 .container-contato{
     display: flex;
     font-size: 15px;
     padding-left: 50px;
+   
 }
 .contato a{
     font-size: 15px;
