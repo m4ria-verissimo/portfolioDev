@@ -491,6 +491,7 @@ header{
 .block{
     width: 100%;
     max-width: 190px;
+    margin:auto;
  
 }
 .projetos img{
@@ -507,14 +508,14 @@ header{
 }
 .texto{
     margin-top: 3px;
-    width: 60vw;
-    height: 20vh;
+    width: 50vw;
+    height: 10vh;
     margin:auto;
 
     
 }
 .texto input{
-    width: 20vw;
+    width: 15vw;
     height: 4vh;
     margin-bottom: 3px;
     margin-right: 1px;
@@ -524,10 +525,24 @@ header{
    
 }
 .texto textarea{
-    width:40vw;
+    width:30vw;
     height: 10vh;
     background-color:#202230;
     color:#fff;
     border-radius: 7px;
+}
+.texto button{
+    padding: 3px;
+    display: flex;
+    margin:auto;
+    background-color: #8B5CF6;
+    color:#fff;
+    border-radius: 5px;
+}
+.container-contato{
+    display: flex;
+    font-size: 15px;
+    padding-left: 20px;
+    margin: auto;
 }
 }
