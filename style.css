@@ -366,10 +366,10 @@ p{
 .texto button{
     padding: 6px;
     display: flex;
-    margin:auto;
     background-color: #8B5CF6;
     color:#fff;
     border-radius: 9px;
+    justify-content: center;
 }
 .texto button:hover{
     background-color: #8a5cf673;
@@ -491,6 +491,7 @@ header{
 .block{
     width: 100%;
     max-width: 160px;
+    height: 270px;
     margin:auto;
  
 }
