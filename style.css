@@ -75,17 +75,17 @@ span{
     display: flex;
     flex-direction: column;
     gap:15px;
-  
-
 }
 .fechar{
     margin-left: 100px;
     font-size:25px;
-    padding:5px 8px;
+    padding:3px 13px;
     background-color:#8B5CF6;
     color:#fff;
     border-radius: 50%;
- 
+}
+.fechar:hover, .tel:hover {
+    background-color:#8a5cf679;
 }
 .modal-conteudo h2{
     font-size: 20px;
@@ -96,25 +96,28 @@ span{
     padding: 5px 27px 5px 27px;
     font-size: 14px;
     background-color: #8B5CF6;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
+
+
 .whats a{
     font-size: 19px;
     padding: 3px 37px 3px 37px;
     background-color: darkgreen;
     text-decoration: none;
-    border-radius:10px ;
-
-    
+    border-radius:10px ; 
+}
+.whats a:hover{
+     background-color: rgba(0, 100, 0, 0.423);
 }
 .button-email {
-    
     background-color: red;
      font-size: 15px;
      padding: 5px 36px 5px 36px;
-     border-radius: 10px;
-     
+     border-radius: 10px;  
+}
+.button-email:hover{
+     background-color: rgba(255, 0, 0, 0.473);
 }
 .modal-conteudo a{
   text-decoration: none;
@@ -278,9 +281,9 @@ p{
    
     
 }
-#projetos-titulo{
+#projetos-titulo h3{
     background-color: #11121A;
-    color: #fff;
+    color: red;
     margin-bottom: 10px;
     margin-top: 15px;
     margin-left: 15px;
