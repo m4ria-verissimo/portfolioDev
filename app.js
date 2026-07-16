@@ -15,7 +15,7 @@ function enviar(){
    const email = document.getElementById("email").value;
    const msg = document.getElementById("msg").value;
    
-   emailjs.send("service_bblmnym" , "template_6yrg249" ,{
+   emailjs.send("service_bblmnym" , "template_4vycrt4" ,{
     nome: nome, 
     email: email ,
     mensagem: msg 
