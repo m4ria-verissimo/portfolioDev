@@ -20,6 +20,9 @@ main{
 h1 {
     font-size: 14px;
 }
+h3{
+    color:#fff;
+}
 nav{
     display:flex;
     gap:17px;
