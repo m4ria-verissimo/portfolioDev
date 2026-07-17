@@ -402,6 +402,41 @@ p{
 .texto button:hover{
     background-color: #8a5cf673;
 }
+.modal-sucesso{
+   display: none;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   justify-content: center;
+   align-items: center;
+}
+.modal-content{
+    padding: 40px 25px;
+    border-radius: 15px;
+    background-color: #11121A;
+    text-align: center;
+}
+.modal-content h2{
+    margin-top: 15px;
+}
+
+#fecharmodal{
+    background-color: #8B5CF6;
+    padding: 6px 8px;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 14px;
+    margin-left: 80%;
+}
+#fecharmodal:hover{
+    background-color: #8a5cf66e;
+}
+
+
+   
+
+
 footer{
     text-align: center;
     margin-top: 10vh;
