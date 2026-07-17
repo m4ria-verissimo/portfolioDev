@@ -9,8 +9,8 @@ function abrirmodal(){
   }
 }
 function enviar(){
-    
-   
+   const form = document.getElementById("form");
+   const modal = document.getElementById("modal-sucesso");
    const nome=  document.getElementById("nome").value;
    const email = document.getElementById("email").value;
    const msg = document.getElementById("msg").value;
@@ -21,9 +21,14 @@ function enviar(){
     mensagem: msg 
     })
     .then(()=> {
-        alert("ok");
-    });
+        modal.style.display= "flex";
+        form.reset();
 
-    
+    });
+        document.getElementById("fecharmodal").onclick=function(){
+            document.getElementById("modal-sucesso").style.display="none";
+        }
+
+   
 
 }
